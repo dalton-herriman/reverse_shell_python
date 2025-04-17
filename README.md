@@ -9,8 +9,11 @@ ReverseShellPy is a lightweight Python-based reverse shell designed for ethical 
 - ✅ UNIX and Windows-compatible
 - ✅ Easy-to-extend architecture
 
-## 🚀 Usage
 
+---
+
+
+## 🚀 Usage
 ### 🔐 Setup TLS Certificates (optional but recommended)
 Generate self-signed TLS certs using OpenSSL:
 ```bash
@@ -24,6 +27,7 @@ Run the listener:
 ```bash
 python listener.py
 ```
+
 ### 🖥️ Reverse Shell (Victim)
 Run the reverse shell from the target machine:
 ```bash
@@ -31,11 +35,19 @@ python reverse_shell.py
 ```
 Ensure that you update the IP addresses properly before use.
 
+
+---
+
+
 ## 📁 File Structure
 reverse_shell/
 ├── listener.py          # TLS/Plaintext listener
 ├── reverse_shell.py     # Client reverse shell payload
 └── README.md
+
+
+---
+
 
 ## ⚠️ Legal Disclaimer
 This project is provided for educational purposes only.
@@ -46,16 +58,27 @@ The developers of this tool are not responsible for any misuse, damage, or legal
 
 If you're unsure whether you have permission — you don't.
 
+
+---
+
+
 ## 📚 Learn More
 - OWASP Testing Guide: https://owasp.org/www-project-web-security-testing-guide/
 - MITRE ATT&CK Framework: https://attack.mitre.org/
 - NIST Cybersecurity Framework: https://www.nist.gov/cyberframework
+
+
+---
+
 
 ## 🛠️ Contributions
 Pull requests are welcome for improvements, especially around:
 - Cross-platform payload support
 - Detection evasion techniques (for legal red team use)
 
+
+---
+
+
 ## 📜 License
 This project is licensed under the MIT License. See LICENSE for more details.
-
